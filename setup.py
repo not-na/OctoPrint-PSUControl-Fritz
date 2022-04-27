@@ -6,7 +6,7 @@ import setuptools
 plugin_identifier = "psucontrol_fritz"
 plugin_package = "octoprint_%s" % plugin_identifier
 plugin_name = "OctoPrint-PSUControl-Fritz"
-plugin_version = "1.0.1"
+plugin_version = "1.0.0"
 plugin_description = "Adds Fritz!Dect Smart Plug support to OctoPrint-PSUControl as a sub-plugin"
 plugin_author = "not-na"
 plugin_author_email = "notna+gh@apparat.org"
