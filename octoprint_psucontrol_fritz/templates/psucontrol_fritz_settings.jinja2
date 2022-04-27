@@ -1,0 +1,31 @@
+<!-- ko ifnot: settings.plugins.psucontrol -->
+<span class="help-inline label label-important">This plugin requires <a href="https://plugins.octoprint.org/plugins/psucontrol/" target="_blank">PSU Control</a> in order to function. It can be installed from the Plugin Manager.</span>
+<!-- /ko -->
+
+<form class="form-horizontal">
+    <h4>General</h4>
+    <div class="control-group">
+        <label class="control-label">Address of Fritz!Box</label>
+        <div class="controls">
+            <input type="text" class="input" data-bind="value: settings.plugins.psucontrol_fritz.address" placeholder="fritz.box">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">Fritz!Box Username</label>
+        <div class="controls">
+            <input type="text" class="input" data-bind="value: settings.plugins.psucontrol_fritz.username" placeholder="">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">Fritz!Box Password</label>
+        <div class="controls">
+            <input type="password" class="input" data-bind="value: settings.plugins.psucontrol_fritz.password" placeholder="">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">AIN of Smart Plug</label>
+        <div class="controls">
+            <input type="text" class="input" data-bind="value: settings.plugins.psucontrol_fritz.ain" placeholder="01234 5678901">
+        </div>
+    </div>
+</form>

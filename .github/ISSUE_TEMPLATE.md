@@ -6,7 +6,7 @@ https://github.com/kantlivelong/OctoPrint-PSUControl/wiki
 https://github.com/kantlivelong/OctoPrint-PSUControl-TPLink/wiki
 
 This is a bug tracker, please only use it to report bugs
-within OctoPrint-PSUControl-TPLink.
+within OctoPrint-PSUControl-Fritz.
 
 Do not seek support here ("I need help with ...", "I have a
 question ..."), that belongs on the community forum at 
@@ -60,7 +60,7 @@ to also include a link to a file with which to reproduce the problem.
 Can be found in Plugin Manager. ALWAYS INCLUDE.
 -->
 
-#### Version of OctoPrint-PSUControl-TPLink
+#### Version of OctoPrint-PSUControl-Fritz
 
 <!--
 Can be found in Plugin Manager. ALWAYS INCLUDE.

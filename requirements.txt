@@ -1,1 +1,3 @@
 OctoPrint
+simpletr64 @ git+https://github.com/tobyp/simpletr64.git
+fritzctl==1.0.0a3

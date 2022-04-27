@@ -3,14 +3,14 @@ import setuptools
 
 ########################################################################################################################
 
-plugin_identifier = "psucontrol_tplink"
+plugin_identifier = "psucontrol_fritz"
 plugin_package = "octoprint_%s" % plugin_identifier
-plugin_name = "OctoPrint-PSUControl-TPLink"
+plugin_name = "OctoPrint-PSUControl-Fritz"
 plugin_version = "1.0.1"
-plugin_description = "Adds TPLink Smart Plug support to OctoPrint-PSUControl as a sub-plugin"
-plugin_author = "Shawn Bruce"
-plugin_author_email = "kantlivelong@gmail.com"
-plugin_url = "https://github.com/kantlivelong/OctoPrint-PSUControl-TPLink"
+plugin_description = "Adds Fritz!Dect Smart Plug support to OctoPrint-PSUControl as a sub-plugin"
+plugin_author = "not-na"
+plugin_author_email = "notna+gh@apparat.org"
+plugin_url = "https://github.com/not-na/OctoPrint-PSUControl-Fritz"
 plugin_license = "AGPLv3"
 plugin_additional_data = []
 
