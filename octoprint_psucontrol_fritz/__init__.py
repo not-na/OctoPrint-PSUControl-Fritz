@@ -142,7 +142,7 @@ class PSUControl_Fritz(octoprint.plugin.StartupPlugin,
 
     def get_update_information(self):
         return dict(
-            psucontrol_tplink=dict(
+            psucontrol_fritz=dict(
                 displayName="PSU Control - Fritz!Box",
                 displayVersion=self._plugin_version,
 
