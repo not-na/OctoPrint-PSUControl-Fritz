@@ -54,7 +54,6 @@ class PSUControl_Fritz(octoprint.plugin.StartupPlugin,
 
     def connect(self):
         try:
-            self._logger.info(f"Config Data: {self.config}")
             self.session = fritzctl.Session(
                 server=self.config["address"],
                 user=self.config["username"],
